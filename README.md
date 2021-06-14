@@ -34,31 +34,19 @@ This project was built to demonstrate the understanding for Rails models and the
 
 - Since this project is all about the representation of the associations between models - without html interface - model can be created and accessed through the `rails console`. Type `rails c` to access the console.
 - Test run the following commands in sequence to make sure all is working fine.
-  - `User.all` should return an empty array
-  - `u = User.new(name: "Daniel")`. Then `u.save` to save
-  - `p = User.first.posts.build` to build a post for the first user you have created.
-  - `p.title = "my_first_post"` to assign title attribute to post. Then `p.save` to save
-  - 
-
-### Run tests
-
-### Deployment
-
-
+  - Type `User.all` should return an empty array
+  - Type `u = User.new(name: "Daniel")` to build new user. Then `u.save` to save
+  - Type `p = User.first.posts.build` to build a post for the first user you have created.
+  - Type `p.title = "my_first_post"` to assign title attribute to post. Then `p.save` to save
+  - Type `c = Comment.new(title: "<title>", body: "<body>", user_id: <id>, post_id: <id>)` to create a comment with associated user and post
 
 ## Authors
 
-👤 **Author1**
+👤 **Teddy-Livingstone Ememandu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [GitHub](https://github.com/TedLivist)
+- [Twitter](https://twitter.com/iamxted)
+- [LinkedIn](https://linkedin.com/in/tememandu)
 
 ## 🤝 Contributing
 
@@ -72,10 +60,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
 - Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+- Rails Guide

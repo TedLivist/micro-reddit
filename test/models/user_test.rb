@@ -1,5 +1,3 @@
-# rubocop: disable Layout/EndOfLine
-
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
@@ -7,4 +5,3 @@ class UserTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
-# rubocop: enable Layout/EndOfLine

@@ -1,5 +1,3 @@
-# rubocop: disable Layout/EndOfLine
-
 require 'test_helper'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
@@ -8,4 +6,3 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 end
-# rubocop: enable Layout/EndOfLine
